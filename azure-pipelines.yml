@@ -15,7 +15,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'az-dockerhub-connection'  # Connexion Docker Hub configurée dans Azure DevOps.
-    repository: 'hibaallah2024/docker-image'      # Répertoire de l'image Docker (<utilisateur>/<nom-repo>).
+    repository: 'mohamedlabrassi/tp_azure'      # Répertoire de l'image Docker (<utilisateur>/<nom-repo>).
     command: 'buildAndPush'                       # Construire et pousser l'image Docker.
     Dockerfile: 'Dockerfile'                      # Chemin relatif vers le Dockerfile.
     tags: 'latest'                                # Utiliser le tag "latest" pour l'image.
@@ -26,6 +26,6 @@ steps:
     targetType: 'inline'
     script: |
       # Appeler l'URL du Deploy Hook pour déclencher le déploiement Render
-      $url = "https://api.render.com/deploy/srv-cta7th1u0jms73etm610?key=1T3RDrYS6co"
+      $url = "https://api.render.com/deploy/srv-ctbi1o56l47c73aevjug?key=a8GCIpjSUGg"
       Invoke-RestMethod -Uri $url -Method Post
   displayName: 'Trigger Deploy via Render Hook'
