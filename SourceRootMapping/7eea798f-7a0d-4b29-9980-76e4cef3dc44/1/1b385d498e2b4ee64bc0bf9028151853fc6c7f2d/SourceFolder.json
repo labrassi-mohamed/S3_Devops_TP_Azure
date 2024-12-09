@@ -1,0 +1,26 @@
+﻿{
+  "build_artifactstagingdirectory": "1/a",
+  "agent_builddirectory": "1",
+  "collectionUrl": "https://dev.azure.com/mohamedlabrassi/",
+  "definitionName": "labrassi-mohamed.S3_Devops_TP_Azure",
+  "repositoryTrackingInfo": [
+    {
+      "identifier": "self",
+      "repositoryType": "GitHub",
+      "repositoryUrl": "https://github.com/labrassi-mohamed/S3_Devops_TP_Azure",
+      "sourcesDirectory": "1/s/S3_Devops_TP_Azure"
+    }
+  ],
+  "fileFormatVersion": 3,
+  "lastRunOn": "12/09/2024 18:05:35 +01:00",
+  "repositoryType": "GitHub",
+  "lastMaintenanceAttemptedOn": "",
+  "lastMaintenanceCompletedOn": "",
+  "build_sourcesdirectory": "1/s",
+  "common_testresultsdirectory": "1/TestResults",
+  "collectionId": "7eea798f-7a0d-4b29-9980-76e4cef3dc44",
+  "definitionId": "1",
+  "hashKey": "1b385d498e2b4ee64bc0bf9028151853fc6c7f2d",
+  "repositoryUrl": "https://github.com/labrassi-mohamed/S3_Devops_TP_Azure",
+  "system": "build"
+}
